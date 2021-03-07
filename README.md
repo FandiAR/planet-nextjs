@@ -1,30 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Planet Whim NextJs
+This project was built on [NextJs] (https://nextjs.org/).
 
-## Getting Started
+## How to run
+1. Clone this repo with following commands:
 
-First, run the development server:
+    ```
+    git clone https://github.com/FandiAR/planet-whim-nextjs.git
+    ```
+2. Move to planet-whim-nextjs directory
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+    ```
+    cd planet-whim-nextjs
+    ```
+3. Run npm install 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    ```
+    npm install
+    ```
+4. Run apps 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+    ```
+    npm start
+    ```
+5. Open browser with the following url 
 
-## Learn More
+    http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+## Flow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. At first load, the cursor focus on search box.
+2. Data loaded, users could see the list of the planets.
+3. User could type in search box the name of the planet(s) that they wanna see.
+4. If the keyword(s) that typed by users not match with any planet, the apps give an empty state page.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Application stack
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. [NextJs] (https://nextjs.org/).
+2. [Axios] (https://www.npmjs.com/package/axios) as promise based HTTP client for the browser.
+3. [ESLint] (https://eslint.org/) as pluggable and configurable javascript linter tool.
