@@ -36,7 +36,8 @@ This project was built on [NextJs](https://nextjs.org/).
 ## Application stack
 
 1. [NextJs](https://nextjs.org/).
-2. [Axios](https://www.npmjs.com/package/axios) as promise based HTTP client for the browser.
-3. [ESLint](https://eslint.org/) as pluggable and configurable javascript linter tool.
+2. [Material-UI](https://material-ui.com/).
+3. [Axios](https://www.npmjs.com/package/axios) as promise based HTTP client for the browser.
+4. [ESLint](https://eslint.org/) as pluggable and configurable javascript linter tool.
 
 [Live Demo](https://planet-nextjs.vercel.app/)
