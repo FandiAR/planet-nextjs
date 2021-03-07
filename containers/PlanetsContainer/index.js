@@ -104,7 +104,6 @@ const PlanetsContainer = () => {
     <Grid item className={classes.empty}>
       <img src="empty-list.svg" alt="Empty List" />
       <Text variant="h6">Data not found!</Text>
-      <Text variant="h6">Search with another planet name... :-)</Text>
     </Grid>
   );
 
