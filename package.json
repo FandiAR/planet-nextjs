@@ -8,9 +8,8 @@
     "url": "https://ponpesit.com"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "next dev",
+    "build": "next build"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
