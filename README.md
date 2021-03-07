@@ -1,16 +1,16 @@
 ## Planet Whim NextJs
-This project was built on [NextJs] (https://nextjs.org/).
+This project was built on [NextJs](https://nextjs.org/).
 
 ## How to run
 1. Clone this repo with following commands:
 
     ```
-    git clone https://github.com/FandiAR/planet-whim-nextjs.git
+    git clone https://github.com/FandiAR/planet-nextjs.git
     ```
-2. Move to planet-whim-nextjs directory
+2. Move to planet-nextjs directory
 
     ```
-    cd planet-whim-nextjs
+    cd planet-nextjs
     ```
 3. Run npm install 
 
@@ -35,6 +35,8 @@ This project was built on [NextJs] (https://nextjs.org/).
 
 ## Application stack
 
-1. [NextJs] (https://nextjs.org/).
-2. [Axios] (https://www.npmjs.com/package/axios) as promise based HTTP client for the browser.
-3. [ESLint] (https://eslint.org/) as pluggable and configurable javascript linter tool.
+1. [NextJs](https://nextjs.org/).
+2. [Axios](https://www.npmjs.com/package/axios) as promise based HTTP client for the browser.
+3. [ESLint](https://eslint.org/) as pluggable and configurable javascript linter tool.
+
+[Live Demo](https://planet-nextjs.vercel.app/)
